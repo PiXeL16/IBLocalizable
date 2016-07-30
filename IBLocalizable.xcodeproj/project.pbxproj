@@ -132,12 +132,12 @@
 		837CE3FF1D4C50B000EC3FDA = {
 			isa = PBXGroup;
 			children = (
-				837CE40B1D4C50B000EC3FDA /* IBLocalizable */,
-				837CE4171D4C50B000EC3FDA /* IBLocalizableTests */,
-				837CE4311D4C5B6900EC3FDA /* IBLocalizableSample */,
-				837CE40A1D4C50B000EC3FDA /* Products */,
-				D9B63D86D6FCE9EAE756C87A /* Pods */,
 				1EBC4FED80B7499A008D18F9 /* Frameworks */,
+				837CE40B1D4C50B000EC3FDA /* IBLocalizable */,
+				837CE4311D4C5B6900EC3FDA /* IBLocalizableSample */,
+				837CE4171D4C50B000EC3FDA /* IBLocalizableTests */,
+				D9B63D86D6FCE9EAE756C87A /* Pods */,
+				837CE40A1D4C50B000EC3FDA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,9 +154,9 @@
 		837CE40B1D4C50B000EC3FDA /* IBLocalizable */ = {
 			isa = PBXGroup;
 			children = (
+				837CE4251D4C578700EC3FDA /* Protocol */,
 				837CE4291D4C590D00EC3FDA /* Utils */,
 				837CE4261D4C579500EC3FDA /* Views */,
-				837CE4251D4C578700EC3FDA /* Protocol */,
 				837CE40C1D4C50B000EC3FDA /* IBLocalizable.h */,
 				837CE40E1D4C50B000EC3FDA /* Info.plist */,
 			);
@@ -167,8 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				837CE4731D4D2D9A00EC3FDA /* Protocol */,
-				837CE4701D4D28BD00EC3FDA /* Views */,
 				837CE4691D4D256A00EC3FDA /* Utils */,
+				837CE4701D4D28BD00EC3FDA /* Views */,
 				837CE4181D4C50B000EC3FDA /* IBLocalizableTests.swift */,
 				837CE41A1D4C50B000EC3FDA /* Info.plist */,
 				837CE46C1D4D271200EC3FDA /* Localizable.strings */,
@@ -181,21 +181,21 @@
 			children = (
 				837CE4231D4C54D400EC3FDA /* Localizable.swift */,
 			);
-			name = Protocol;
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		837CE4261D4C579500EC3FDA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				837CE44E1D4C5F0D00EC3FDA /* LocalizableLabel.swift */,
 				837CE4511D4C684600EC3FDA /* LocalizableButton.swift */,
-				837CE4571D4C6C7600EC3FDA /* LocalizableView.swift */,
+				837CE44E1D4C5F0D00EC3FDA /* LocalizableLabel.swift */,
+				837CE4661D4C78AF00EC3FDA /* LocalizableNavigationItem.swift */,
 				837CE45A1D4C73FA00EC3FDA /* LocalizableTextField.swift */,
 				837CE45D1D4C74D400EC3FDA /* LocalizableTextView.swift */,
 				837CE4631D4C768F00EC3FDA /* LocalizableUIBarItem.swift */,
-				837CE4661D4C78AF00EC3FDA /* LocalizableNavigationItem.swift */,
+				837CE4571D4C6C7600EC3FDA /* LocalizableView.swift */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		837CE4291D4C590D00EC3FDA /* Utils */ = {
@@ -203,19 +203,19 @@
 			children = (
 				837CE42A1D4C59AE00EC3FDA /* LocalizableString.swift */,
 			);
-			name = Utils;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		837CE4311D4C5B6900EC3FDA /* IBLocalizableSample */ = {
 			isa = PBXGroup;
 			children = (
 				837CE4321D4C5B6900EC3FDA /* AppDelegate.swift */,
-				837CE4341D4C5B6900EC3FDA /* ViewController.swift */,
-				837CE4361D4C5B6900EC3FDA /* Main.storyboard */,
 				837CE4391D4C5B6900EC3FDA /* Assets.xcassets */,
-				837CE43B1D4C5B6900EC3FDA /* LaunchScreen.storyboard */,
 				837CE43E1D4C5B6900EC3FDA /* Info.plist */,
+				837CE43B1D4C5B6900EC3FDA /* LaunchScreen.storyboard */,
 				837CE44D1D4C5D3F00EC3FDA /* Localizable.strings */,
+				837CE4361D4C5B6900EC3FDA /* Main.storyboard */,
+				837CE4341D4C5B6900EC3FDA /* ViewController.swift */,
 			);
 			path = IBLocalizableSample;
 			sourceTree = "<group>";
@@ -223,19 +223,19 @@
 		837CE4691D4D256A00EC3FDA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				837CE46A1D4D257900EC3FDA /* LocalizableStringSpecs.swift */,
 				837CE46E1D4D280700EC3FDA /* BundleUtil.swift */,
+				837CE46A1D4D257900EC3FDA /* LocalizableStringSpecs.swift */,
 			);
-			name = Utils;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		837CE4701D4D28BD00EC3FDA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				837CE4711D4D2C5D00EC3FDA /* LocalizableViewSpecs.swift */,
 				837CE4761D4D33F200EC3FDA /* LocalizableUIBarItemsSpecs.swift */,
+				837CE4711D4D2C5D00EC3FDA /* LocalizableViewSpecs.swift */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		837CE4731D4D2D9A00EC3FDA /* Protocol */ = {
@@ -243,7 +243,7 @@
 			children = (
 				837CE4741D4D2DAA00EC3FDA /* LocalizableSpecs.swift */,
 			);
-			name = Protocol;
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		D9B63D86D6FCE9EAE756C87A /* Pods */ = {
@@ -542,6 +542,7 @@
 				837CE4371D4C5B6900EC3FDA /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		837CE43B1D4C5B6900EC3FDA /* LaunchScreen.storyboard */ = {
@@ -550,6 +551,7 @@
 				837CE43C1D4C5B6900EC3FDA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		837CE44D1D4C5D3F00EC3FDA /* Localizable.strings */ = {
@@ -558,6 +560,7 @@
 				837CE44C1D4C5D3F00EC3FDA /* Base */,
 			);
 			name = Localizable.strings;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -772,6 +775,7 @@
 				837CE4411D4C5B6900EC3FDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
