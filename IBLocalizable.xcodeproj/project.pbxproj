@@ -36,6 +36,12 @@
 		837CE4651D4C768F00EC3FDA /* LocalizableUIBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4631D4C768F00EC3FDA /* LocalizableUIBarItem.swift */; };
 		837CE4671D4C78AF00EC3FDA /* LocalizableNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4661D4C78AF00EC3FDA /* LocalizableNavigationItem.swift */; };
 		837CE4681D4C78AF00EC3FDA /* LocalizableNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4661D4C78AF00EC3FDA /* LocalizableNavigationItem.swift */; };
+		837CE46B1D4D257900EC3FDA /* LocalizableStringSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE46A1D4D257900EC3FDA /* LocalizableStringSpecs.swift */; };
+		837CE46D1D4D271200EC3FDA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 837CE46C1D4D271200EC3FDA /* Localizable.strings */; };
+		837CE46F1D4D280700EC3FDA /* BundleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE46E1D4D280700EC3FDA /* BundleUtil.swift */; };
+		837CE4721D4D2C5D00EC3FDA /* LocalizableViewSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4711D4D2C5D00EC3FDA /* LocalizableViewSpecs.swift */; };
+		837CE4751D4D2DAA00EC3FDA /* LocalizableSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4741D4D2DAA00EC3FDA /* LocalizableSpecs.swift */; };
+		837CE4771D4D33F200EC3FDA /* LocalizableUIBarItemsSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4761D4D33F200EC3FDA /* LocalizableUIBarItemsSpecs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +81,12 @@
 		837CE45D1D4C74D400EC3FDA /* LocalizableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableTextView.swift; sourceTree = "<group>"; };
 		837CE4631D4C768F00EC3FDA /* LocalizableUIBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableUIBarItem.swift; sourceTree = "<group>"; };
 		837CE4661D4C78AF00EC3FDA /* LocalizableNavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableNavigationItem.swift; sourceTree = "<group>"; };
+		837CE46A1D4D257900EC3FDA /* LocalizableStringSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableStringSpecs.swift; sourceTree = "<group>"; };
+		837CE46C1D4D271200EC3FDA /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		837CE46E1D4D280700EC3FDA /* BundleUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleUtil.swift; sourceTree = "<group>"; };
+		837CE4711D4D2C5D00EC3FDA /* LocalizableViewSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableViewSpecs.swift; sourceTree = "<group>"; };
+		837CE4741D4D2DAA00EC3FDA /* LocalizableSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableSpecs.swift; sourceTree = "<group>"; };
+		837CE4761D4D33F200EC3FDA /* LocalizableUIBarItemsSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableUIBarItemsSpecs.swift; sourceTree = "<group>"; };
 		93DABE2F0B620C734942B5DC /* Pods_IBLocalizableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBLocalizableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC76A85E9EDC9C8090DEAF5 /* Pods-IBLocalizable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizable/Pods-IBLocalizable.debug.xcconfig"; sourceTree = "<group>"; };
 		C1DEC4FD786CBE2B9BFF0A5F /* Pods-IBLocalizableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,8 +166,12 @@
 		837CE4171D4C50B000EC3FDA /* IBLocalizableTests */ = {
 			isa = PBXGroup;
 			children = (
+				837CE4731D4D2D9A00EC3FDA /* Protocol */,
+				837CE4701D4D28BD00EC3FDA /* Views */,
+				837CE4691D4D256A00EC3FDA /* Utils */,
 				837CE4181D4C50B000EC3FDA /* IBLocalizableTests.swift */,
 				837CE41A1D4C50B000EC3FDA /* Info.plist */,
+				837CE46C1D4D271200EC3FDA /* Localizable.strings */,
 			);
 			path = IBLocalizableTests;
 			sourceTree = "<group>";
@@ -202,6 +218,32 @@
 				837CE44D1D4C5D3F00EC3FDA /* Localizable.strings */,
 			);
 			path = IBLocalizableSample;
+			sourceTree = "<group>";
+		};
+		837CE4691D4D256A00EC3FDA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				837CE46A1D4D257900EC3FDA /* LocalizableStringSpecs.swift */,
+				837CE46E1D4D280700EC3FDA /* BundleUtil.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		837CE4701D4D28BD00EC3FDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				837CE4711D4D2C5D00EC3FDA /* LocalizableViewSpecs.swift */,
+				837CE4761D4D33F200EC3FDA /* LocalizableUIBarItemsSpecs.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		837CE4731D4D2D9A00EC3FDA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				837CE4741D4D2DAA00EC3FDA /* LocalizableSpecs.swift */,
+			);
+			name = Protocol;
 			sourceTree = "<group>";
 		};
 		D9B63D86D6FCE9EAE756C87A /* Pods */ = {
@@ -340,6 +382,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837CE46D1D4D271200EC3FDA /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +498,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837CE4771D4D33F200EC3FDA /* LocalizableUIBarItemsSpecs.swift in Sources */,
+				837CE4721D4D2C5D00EC3FDA /* LocalizableViewSpecs.swift in Sources */,
+				837CE46B1D4D257900EC3FDA /* LocalizableStringSpecs.swift in Sources */,
+				837CE4751D4D2DAA00EC3FDA /* LocalizableSpecs.swift in Sources */,
 				837CE4191D4C50B000EC3FDA /* IBLocalizableTests.swift in Sources */,
+				837CE46F1D4D280700EC3FDA /* BundleUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

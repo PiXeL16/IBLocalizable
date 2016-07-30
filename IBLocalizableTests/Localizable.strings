@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  IBLocalizable
+
+  Created by Chris Jimenez on 7/30/16.
+  Copyright © 2016 Chris Jimenez. All rights reserved.
+*/
+
+
+"test" = "esto es una prueba";

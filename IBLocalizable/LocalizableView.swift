@@ -29,6 +29,9 @@ extension UIView : Localizable {
             return text
         }
         set{
+            /**
+             *  Applys the localization to the property
+             */
             applyLocalizableString(newValue)
         }
         
