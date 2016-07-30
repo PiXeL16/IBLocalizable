@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>IBLocalizableSample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>837CE4121D4C50B000EC3FDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>837CE42F1D4C5B6900EC3FDA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
