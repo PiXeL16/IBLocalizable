@@ -7,3 +7,4 @@
 */
 
 "test" = "prueba larga de string";
+"buttonText" = "Esto es un botón";

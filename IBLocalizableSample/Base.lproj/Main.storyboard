@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,26 +18,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6P-uq-VY8" customClass="LocalizableLabel" customModule="IBLocalizableSample" customModuleProvider="target">
-                                <rect key="frame" x="279" y="164" width="42" height="271"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IZo-Ol-ivZ">
+                                <rect key="frame" x="279" y="289" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="test"/>
-                                </userDefinedRuntimeAttributes>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7gz-PL-jFA">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="dQu-Mv-9D2">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" id="G9L-nw-wGo">
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="test"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </barButtonItem>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="test"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jeb-93-ZpE">
+                                <rect key="frame" x="275" y="174" width="46" height="30"/>
+                                <state key="normal" title="button testtt"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizableString" value="buttonText"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDB-e1-5Ti">
+                                <rect key="frame" x="-2" y="551" width="600" height="49"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="yEm-iW-eu8"/>
+                                </constraints>
+                                <items>
+                                    <tabBarItem title="test" id="gy4-TD-lSb"/>
+                                    <tabBarItem systemItem="more" id="pb3-WL-BJc"/>
+                                </items>
+                            </tabBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="testtestt" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gVt-vc-Nfl">
+                                <rect key="frame" x="250" y="387" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="w6P-uq-VY8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Ko-KV-cKL"/>
-                            <constraint firstItem="w6P-uq-VY8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="144" id="NVG-bB-L6u"/>
-                            <constraint firstItem="w6P-uq-VY8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bfc-vJ-XDy"/>
+                            <constraint firstItem="aDB-e1-5Ti" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-22" id="0iD-jf-8P0"/>
+                            <constraint firstItem="IZo-Ol-ivZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2l7-ge-Ouo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aDB-e1-5Ti" secondAttribute="bottom" id="5BJ-zk-OVF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aDB-e1-5Ti" secondAttribute="trailing" constant="-18" id="mjE-zb-MRH"/>
+                            <constraint firstItem="IZo-Ol-ivZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qoS-2B-XAS"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="274" y="389"/>
         </scene>
     </scenes>
 </document>

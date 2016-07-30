@@ -1,5 +1,5 @@
 //
-//  LabelExtension.swift
+//  LocalizableTextView.swift
 //  IBLocalizable
 //
 //  Created by Chris Jimenez on 7/29/16.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension UILabel {
-    
+extension UITextView{
+
     public override var localizableProperty: String?{
         
         get{
@@ -19,5 +19,4 @@ extension UILabel {
             self.text = newValue
         }
     }
-    
 }

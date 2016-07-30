@@ -1,5 +1,5 @@
 //
-//  LabelExtension.swift
+//  LocalizableButton.swift
 //  IBLocalizable
 //
 //  Created by Chris Jimenez on 7/29/16.
@@ -8,16 +8,17 @@
 
 import UIKit
 
-extension UILabel {
+extension UIButton {
     
     public override var localizableProperty: String?{
         
         get{
-            return self.text
+            return self.currentTitle
         }
         set{
-            self.text = newValue
+            self.setTitle(newValue, forState: UIControlState.Normal)
         }
     }
-    
+  
+
 }

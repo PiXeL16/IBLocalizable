@@ -13,17 +13,29 @@
 		837CE4141D4C50B000EC3FDA /* IBLocalizable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837CE4091D4C50B000EC3FDA /* IBLocalizable.framework */; };
 		837CE4191D4C50B000EC3FDA /* IBLocalizableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4181D4C50B000EC3FDA /* IBLocalizableTests.swift */; };
 		837CE4241D4C54D400EC3FDA /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4231D4C54D400EC3FDA /* Localizable.swift */; };
-		837CE4281D4C57E300EC3FDA /* LocalizableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4271D4C57E300EC3FDA /* LocalizableLabel.swift */; };
-		837CE42B1D4C59AE00EC3FDA /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE42A1D4C59AE00EC3FDA /* StringUtils.swift */; };
+		837CE42B1D4C59AE00EC3FDA /* LocalizableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE42A1D4C59AE00EC3FDA /* LocalizableString.swift */; };
 		837CE4331D4C5B6900EC3FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4321D4C5B6900EC3FDA /* AppDelegate.swift */; };
 		837CE4351D4C5B6900EC3FDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4341D4C5B6900EC3FDA /* ViewController.swift */; };
 		837CE4381D4C5B6900EC3FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837CE4361D4C5B6900EC3FDA /* Main.storyboard */; };
 		837CE43A1D4C5B6900EC3FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837CE4391D4C5B6900EC3FDA /* Assets.xcassets */; };
 		837CE43D1D4C5B6900EC3FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837CE43B1D4C5B6900EC3FDA /* LaunchScreen.storyboard */; };
-		837CE4421D4C5BF000EC3FDA /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE42A1D4C59AE00EC3FDA /* StringUtils.swift */; };
-		837CE4431D4C5BF400EC3FDA /* LocalizableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4271D4C57E300EC3FDA /* LocalizableLabel.swift */; };
+		837CE4421D4C5BF000EC3FDA /* LocalizableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE42A1D4C59AE00EC3FDA /* LocalizableString.swift */; };
 		837CE4441D4C5BFB00EC3FDA /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4231D4C54D400EC3FDA /* Localizable.swift */; };
 		837CE44B1D4C5D3F00EC3FDA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 837CE44D1D4C5D3F00EC3FDA /* Localizable.strings */; };
+		837CE44F1D4C5F0D00EC3FDA /* LocalizableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE44E1D4C5F0D00EC3FDA /* LocalizableLabel.swift */; };
+		837CE4501D4C5F0D00EC3FDA /* LocalizableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE44E1D4C5F0D00EC3FDA /* LocalizableLabel.swift */; };
+		837CE4521D4C684600EC3FDA /* LocalizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4511D4C684600EC3FDA /* LocalizableButton.swift */; };
+		837CE4531D4C684600EC3FDA /* LocalizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4511D4C684600EC3FDA /* LocalizableButton.swift */; };
+		837CE4581D4C6C7600EC3FDA /* LocalizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4571D4C6C7600EC3FDA /* LocalizableView.swift */; };
+		837CE4591D4C6C7600EC3FDA /* LocalizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4571D4C6C7600EC3FDA /* LocalizableView.swift */; };
+		837CE45B1D4C73FA00EC3FDA /* LocalizableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE45A1D4C73FA00EC3FDA /* LocalizableTextField.swift */; };
+		837CE45C1D4C73FA00EC3FDA /* LocalizableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE45A1D4C73FA00EC3FDA /* LocalizableTextField.swift */; };
+		837CE45E1D4C74D400EC3FDA /* LocalizableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE45D1D4C74D400EC3FDA /* LocalizableTextView.swift */; };
+		837CE45F1D4C74D400EC3FDA /* LocalizableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE45D1D4C74D400EC3FDA /* LocalizableTextView.swift */; };
+		837CE4641D4C768F00EC3FDA /* LocalizableUIBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4631D4C768F00EC3FDA /* LocalizableUIBarItem.swift */; };
+		837CE4651D4C768F00EC3FDA /* LocalizableUIBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4631D4C768F00EC3FDA /* LocalizableUIBarItem.swift */; };
+		837CE4671D4C78AF00EC3FDA /* LocalizableNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4661D4C78AF00EC3FDA /* LocalizableNavigationItem.swift */; };
+		837CE4681D4C78AF00EC3FDA /* LocalizableNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4661D4C78AF00EC3FDA /* LocalizableNavigationItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +59,7 @@
 		837CE4181D4C50B000EC3FDA /* IBLocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBLocalizableTests.swift; sourceTree = "<group>"; };
 		837CE41A1D4C50B000EC3FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		837CE4231D4C54D400EC3FDA /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
-		837CE4271D4C57E300EC3FDA /* LocalizableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableLabel.swift; sourceTree = "<group>"; };
-		837CE42A1D4C59AE00EC3FDA /* StringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		837CE42A1D4C59AE00EC3FDA /* LocalizableString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableString.swift; sourceTree = "<group>"; };
 		837CE4301D4C5B6900EC3FDA /* IBLocalizableSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBLocalizableSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		837CE4321D4C5B6900EC3FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		837CE4341D4C5B6900EC3FDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +68,13 @@
 		837CE43C1D4C5B6900EC3FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		837CE43E1D4C5B6900EC3FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		837CE44C1D4C5D3F00EC3FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		837CE44E1D4C5F0D00EC3FDA /* LocalizableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableLabel.swift; sourceTree = "<group>"; };
+		837CE4511D4C684600EC3FDA /* LocalizableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableButton.swift; sourceTree = "<group>"; };
+		837CE4571D4C6C7600EC3FDA /* LocalizableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableView.swift; sourceTree = "<group>"; };
+		837CE45A1D4C73FA00EC3FDA /* LocalizableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableTextField.swift; sourceTree = "<group>"; };
+		837CE45D1D4C74D400EC3FDA /* LocalizableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableTextView.swift; sourceTree = "<group>"; };
+		837CE4631D4C768F00EC3FDA /* LocalizableUIBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableUIBarItem.swift; sourceTree = "<group>"; };
+		837CE4661D4C78AF00EC3FDA /* LocalizableNavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableNavigationItem.swift; sourceTree = "<group>"; };
 		93DABE2F0B620C734942B5DC /* Pods_IBLocalizableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBLocalizableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC76A85E9EDC9C8090DEAF5 /* Pods-IBLocalizable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizable/Pods-IBLocalizable.debug.xcconfig"; sourceTree = "<group>"; };
 		C1DEC4FD786CBE2B9BFF0A5F /* Pods-IBLocalizableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -153,7 +171,13 @@
 		837CE4261D4C579500EC3FDA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				837CE4271D4C57E300EC3FDA /* LocalizableLabel.swift */,
+				837CE44E1D4C5F0D00EC3FDA /* LocalizableLabel.swift */,
+				837CE4511D4C684600EC3FDA /* LocalizableButton.swift */,
+				837CE4571D4C6C7600EC3FDA /* LocalizableView.swift */,
+				837CE45A1D4C73FA00EC3FDA /* LocalizableTextField.swift */,
+				837CE45D1D4C74D400EC3FDA /* LocalizableTextView.swift */,
+				837CE4631D4C768F00EC3FDA /* LocalizableUIBarItem.swift */,
+				837CE4661D4C78AF00EC3FDA /* LocalizableNavigationItem.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -161,7 +185,7 @@
 		837CE4291D4C590D00EC3FDA /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				837CE42A1D4C59AE00EC3FDA /* StringUtils.swift */,
+				837CE42A1D4C59AE00EC3FDA /* LocalizableString.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -415,9 +439,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				837CE42B1D4C59AE00EC3FDA /* StringUtils.swift in Sources */,
+				837CE4521D4C684600EC3FDA /* LocalizableButton.swift in Sources */,
+				837CE44F1D4C5F0D00EC3FDA /* LocalizableLabel.swift in Sources */,
+				837CE45B1D4C73FA00EC3FDA /* LocalizableTextField.swift in Sources */,
+				837CE42B1D4C59AE00EC3FDA /* LocalizableString.swift in Sources */,
 				837CE4241D4C54D400EC3FDA /* Localizable.swift in Sources */,
-				837CE4281D4C57E300EC3FDA /* LocalizableLabel.swift in Sources */,
+				837CE4671D4C78AF00EC3FDA /* LocalizableNavigationItem.swift in Sources */,
+				837CE45E1D4C74D400EC3FDA /* LocalizableTextView.swift in Sources */,
+				837CE4581D4C6C7600EC3FDA /* LocalizableView.swift in Sources */,
+				837CE4641D4C768F00EC3FDA /* LocalizableUIBarItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +463,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837CE45F1D4C74D400EC3FDA /* LocalizableTextView.swift in Sources */,
+				837CE4531D4C684600EC3FDA /* LocalizableButton.swift in Sources */,
+				837CE4501D4C5F0D00EC3FDA /* LocalizableLabel.swift in Sources */,
+				837CE4651D4C768F00EC3FDA /* LocalizableUIBarItem.swift in Sources */,
 				837CE4441D4C5BFB00EC3FDA /* Localizable.swift in Sources */,
-				837CE4431D4C5BF400EC3FDA /* LocalizableLabel.swift in Sources */,
-				837CE4421D4C5BF000EC3FDA /* StringUtils.swift in Sources */,
+				837CE4421D4C5BF000EC3FDA /* LocalizableString.swift in Sources */,
+				837CE45C1D4C73FA00EC3FDA /* LocalizableTextField.swift in Sources */,
+				837CE4591D4C6C7600EC3FDA /* LocalizableView.swift in Sources */,
 				837CE4351D4C5B6900EC3FDA /* ViewController.swift in Sources */,
 				837CE4331D4C5B6900EC3FDA /* AppDelegate.swift in Sources */,
+				837CE4681D4C78AF00EC3FDA /* LocalizableNavigationItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
