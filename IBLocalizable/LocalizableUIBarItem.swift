@@ -8,6 +8,7 @@
 
 import UIKit
 
+// MARK: - BarItem Extension that adds the localizable property
 extension UIBarItem: Localizable {
     
     public var localizableProperty: String?{

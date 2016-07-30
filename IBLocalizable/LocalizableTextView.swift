@@ -8,6 +8,7 @@
 
 import UIKit
 
+// MARK: - TextView extension that adds the localizable property
 extension UITextView{
 
     public override var localizableProperty: String?{

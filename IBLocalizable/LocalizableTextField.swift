@@ -8,8 +8,8 @@
 
 import UIKit
 
+// MARK: - Textfield extension that adds the localizable property
 extension UITextField {
-    
     
     public override var localizableProperty: String?{
         

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// MARK: - Button extension that adds the localizable property
 extension UIButton {
     
     public override var localizableProperty: String?{

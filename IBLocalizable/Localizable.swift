@@ -30,7 +30,6 @@ public protocol Localizable: class {
 
 extension Localizable{
     
-    
     /**
      Applies the localizable string to the supported view attribute
      

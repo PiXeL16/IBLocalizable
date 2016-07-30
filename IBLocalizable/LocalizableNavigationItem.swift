@@ -8,6 +8,7 @@
 
 import UIKit
 
+// MARK: - Navigation item extension that adds the localizable property
 extension UINavigationItem: Localizable {
     
     public var localizableProperty: String?{
