@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07FF07F1B4B4314DBD409B45 /* Pods_IBLocalizableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93DABE2F0B620C734942B5DC /* Pods_IBLocalizableTests.framework */; };
+		19EE8C74616DD139106E6FDA /* Pods_IBLocalizable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFB8540D86C267E30CDDD8A /* Pods_IBLocalizable.framework */; };
 		837CE40D1D4C50B000EC3FDA /* IBLocalizable.h in Headers */ = {isa = PBXBuildFile; fileRef = 837CE40C1D4C50B000EC3FDA /* IBLocalizable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		837CE4141D4C50B000EC3FDA /* IBLocalizable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837CE4091D4C50B000EC3FDA /* IBLocalizable.framework */; };
 		837CE4191D4C50B000EC3FDA /* IBLocalizableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4181D4C50B000EC3FDA /* IBLocalizableTests.swift */; };
@@ -23,12 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40A20B272AC4DC65C69EDBEE /* Pods-IBLocalizable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizable.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizable/Pods-IBLocalizable.release.xcconfig"; sourceTree = "<group>"; };
+		5C7A5E9C736037A905BDAE9A /* Pods-IBLocalizableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DFB8540D86C267E30CDDD8A /* Pods_IBLocalizable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBLocalizable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		837CE4091D4C50B000EC3FDA /* IBLocalizable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBLocalizable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		837CE40C1D4C50B000EC3FDA /* IBLocalizable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBLocalizable.h; sourceTree = "<group>"; };
 		837CE40E1D4C50B000EC3FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		837CE4131D4C50B000EC3FDA /* IBLocalizableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBLocalizableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		837CE4181D4C50B000EC3FDA /* IBLocalizableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBLocalizableTests.swift; sourceTree = "<group>"; };
 		837CE41A1D4C50B000EC3FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DABE2F0B620C734942B5DC /* Pods_IBLocalizableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBLocalizableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC76A85E9EDC9C8090DEAF5 /* Pods-IBLocalizable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizable/Pods-IBLocalizable.debug.xcconfig"; sourceTree = "<group>"; };
+		C1DEC4FD786CBE2B9BFF0A5F /* Pods-IBLocalizableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19EE8C74616DD139106E6FDA /* Pods_IBLocalizable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				837CE4141D4C50B000EC3FDA /* IBLocalizable.framework in Frameworks */,
+				07FF07F1B4B4314DBD409B45 /* Pods_IBLocalizableTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EBC4FED80B7499A008D18F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DFB8540D86C267E30CDDD8A /* Pods_IBLocalizable.framework */,
+				93DABE2F0B620C734942B5DC /* Pods_IBLocalizableTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		837CE3FF1D4C50B000EC3FDA = {
 			isa = PBXGroup;
 			children = (
 				837CE40B1D4C50B000EC3FDA /* IBLocalizable */,
 				837CE4171D4C50B000EC3FDA /* IBLocalizableTests */,
 				837CE40A1D4C50B000EC3FDA /* Products */,
+				D9B63D86D6FCE9EAE756C87A /* Pods */,
+				1EBC4FED80B7499A008D18F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +107,17 @@
 			path = IBLocalizableTests;
 			sourceTree = "<group>";
 		};
+		D9B63D86D6FCE9EAE756C87A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAC76A85E9EDC9C8090DEAF5 /* Pods-IBLocalizable.debug.xcconfig */,
+				40A20B272AC4DC65C69EDBEE /* Pods-IBLocalizable.release.xcconfig */,
+				C1DEC4FD786CBE2B9BFF0A5F /* Pods-IBLocalizableTests.debug.xcconfig */,
+				5C7A5E9C736037A905BDAE9A /* Pods-IBLocalizableTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,10 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 837CE41D1D4C50B000EC3FDA /* Build configuration list for PBXNativeTarget "IBLocalizable" */;
 			buildPhases = (
+				1189DD71CB36FC0E0D9C1A2A /* [CP] Check Pods Manifest.lock */,
 				837CE4041D4C50B000EC3FDA /* Sources */,
 				837CE4051D4C50B000EC3FDA /* Frameworks */,
 				837CE4061D4C50B000EC3FDA /* Headers */,
 				837CE4071D4C50B000EC3FDA /* Resources */,
+				10C779E6A8297F2A6118AADA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 837CE4201D4C50B000EC3FDA /* Build configuration list for PBXNativeTarget "IBLocalizableTests" */;
 			buildPhases = (
+				CCFD1945148EF39E72A1EFDB /* [CP] Check Pods Manifest.lock */,
 				837CE40F1D4C50B000EC3FDA /* Sources */,
 				837CE4101D4C50B000EC3FDA /* Frameworks */,
 				837CE4111D4C50B000EC3FDA /* Resources */,
+				C70FB614EAC61E033BFF105B /* [CP] Embed Pods Frameworks */,
+				9753B7E90B56AE10A2A6AD96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +225,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10C779E6A8297F2A6118AADA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBLocalizable/Pods-IBLocalizable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1189DD71CB36FC0E0D9C1A2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9753B7E90B56AE10A2A6AD96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C70FB614EAC61E033BFF105B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFD1945148EF39E72A1EFDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		837CE4041D4C50B000EC3FDA /* Sources */ = {
@@ -309,6 +424,7 @@
 		};
 		837CE41E1D4C50B000EC3FDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC76A85E9EDC9C8090DEAF5 /* Pods-IBLocalizable.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -325,6 +441,7 @@
 		};
 		837CE41F1D4C50B000EC3FDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A20B272AC4DC65C69EDBEE /* Pods-IBLocalizable.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -341,6 +458,7 @@
 		};
 		837CE4211D4C50B000EC3FDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DEC4FD786CBE2B9BFF0A5F /* Pods-IBLocalizableTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = IBLocalizableTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -351,6 +469,7 @@
 		};
 		837CE4221D4C50B000EC3FDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7A5E9C736037A905BDAE9A /* Pods-IBLocalizableTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = IBLocalizableTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -378,6 +497,7 @@
 				837CE41F1D4C50B000EC3FDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		837CE4201D4C50B000EC3FDA /* Build configuration list for PBXNativeTarget "IBLocalizableTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +506,7 @@
 				837CE4221D4C50B000EC3FDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
