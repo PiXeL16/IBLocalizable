@@ -65,7 +65,7 @@ class LocalizableViewSpecs: QuickSpec {
             
             let textField: UITextField = UITextField()
             textField.localizableString = localizableString
-            expect(textField.text).to(equal(localizableString))
+            expect(textField.placeholder).to(equal(localizableString))
             expect(textField.localizableProperty).to(equal(localizableString))
         }
         

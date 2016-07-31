@@ -87,6 +87,7 @@
 		837CE4711D4D2C5D00EC3FDA /* LocalizableViewSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableViewSpecs.swift; sourceTree = "<group>"; };
 		837CE4741D4D2DAA00EC3FDA /* LocalizableSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableSpecs.swift; sourceTree = "<group>"; };
 		837CE4761D4D33F200EC3FDA /* LocalizableUIBarItemsSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableUIBarItemsSpecs.swift; sourceTree = "<group>"; };
+		837CE4BF1D4DA00200EC3FDA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		93DABE2F0B620C734942B5DC /* Pods_IBLocalizableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBLocalizableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC76A85E9EDC9C8090DEAF5 /* Pods-IBLocalizable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizable/Pods-IBLocalizable.debug.xcconfig"; sourceTree = "<group>"; };
 		C1DEC4FD786CBE2B9BFF0A5F /* Pods-IBLocalizableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -357,6 +358,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 837CE3FF1D4C50B000EC3FDA;
 			productRefGroup = 837CE40A1D4C50B000EC3FDA /* Products */;
@@ -558,6 +560,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				837CE44C1D4C5D3F00EC3FDA /* Base */,
+				837CE4BF1D4DA00200EC3FDA /* es */,
 			);
 			name = Localizable.strings;
 			path = .;

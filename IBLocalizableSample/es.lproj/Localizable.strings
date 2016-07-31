@@ -7,11 +7,11 @@
 */
 
 "email" = "Email";
-"password" = "Password";
-"forgot password" = "Forgot your password?";
-"sign in" = "Sign In";
-"log out" = "Log Out";
-"more" = "More";
-"main" = "Main";
+"password" = "Contraseña";
+"forgot password" = "Olvidó su Contraseña?";
+"sign in" = "Ingresar";
+"log out" = "Salir";
+"more" = "Más";
+"main" = "Principal";
 
 

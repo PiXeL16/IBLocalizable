@@ -14,10 +14,10 @@ extension UITextField {
     public override var localizableProperty: String?{
         
         get{
-            return self.text
+            return self.placeholder
         }
         set{
-            self.text = newValue
+            self.placeholder = newValue
         }
     }
 
