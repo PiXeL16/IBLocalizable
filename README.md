@@ -63,7 +63,7 @@ After the package its installed simply open your `Storyboard` or `Interface Buil
 
 ![interfaceBuilder](/Web/interfaceBuilder.png)
 
-Since everything is extension based, `IBLocalizable` should play nice with other libraries or `pods` that you are using
+Since everything is extension based, `IBLocalizable` should play nice with other libraries or `pods` that you are using.
 
 ## Sample Project
 In the `Xcode Project` you can find a sample project of a simple `Login` view controller. All of this is automatically localizable in English and Spanish by just using `IBLocalizable`.
@@ -74,7 +74,7 @@ In the `Xcode Project` you can find a sample project of a simple `Login` view co
 ![spanish](/Web/spanish.png)
 
 
-## TODO
+## To do
 * Support more views (SearchBar, TableView Cells, etc)
 * Improve sample project.
 
