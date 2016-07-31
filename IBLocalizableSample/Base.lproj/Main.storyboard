@@ -38,7 +38,7 @@
                                 </items>
                             </tabBar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Fv-Xf-v0x">
-                                <rect key="frame" x="65" y="166" width="470" height="30"/>
+                                <rect key="frame" x="65" y="237" width="470" height="30"/>
                                 <color key="backgroundColor" red="0.95605639180000002" green="0.95605639180000002" blue="0.95605639180000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="QTf-FA-Q57"/>
@@ -50,7 +50,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VDy-ht-Tyf">
-                                <rect key="frame" x="65" y="215" width="470" height="30"/>
+                                <rect key="frame" x="65" y="286" width="470" height="30"/>
                                 <color key="backgroundColor" red="0.95605639180000002" green="0.95605639180000002" blue="0.95605639180000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="zJ9-yU-N1h"/>
@@ -62,7 +62,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot your password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2IH-16-NM9">
-                                <rect key="frame" x="65" y="253" width="255" height="21"/>
+                                <rect key="frame" x="65" y="324" width="255" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="255" id="5Xb-YF-hBn"/>
                                     <constraint firstAttribute="height" constant="21" id="qqV-t3-sG1"/>
@@ -75,7 +75,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCJ-qM-YbU">
-                                <rect key="frame" x="65" y="282" width="470" height="30"/>
+                                <rect key="frame" x="65" y="353" width="470" height="30"/>
                                 <color key="backgroundColor" red="0.2784313725" green="0.52549019610000003" blue="0.81568627449999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="470" id="akO-v7-Mkp"/>
@@ -107,6 +107,13 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IBLocalizable" translatesAutoresizingMaskIntoConstraints="NO" id="dRS-ay-K6Q">
+                                <rect key="frame" x="178" y="89" width="245" height="131"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="2jN-wT-tTA"/>
+                                    <constraint firstAttribute="width" constant="245" id="LHV-tN-gIi"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -114,8 +121,9 @@
                             <constraint firstItem="VDy-ht-Tyf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-45" id="12o-xb-SmM"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aDB-e1-5Ti" secondAttribute="bottom" id="5BJ-zk-OVF"/>
                             <constraint firstItem="2IH-16-NM9" firstAttribute="top" secondItem="VDy-ht-Tyf" secondAttribute="bottom" constant="8" id="66J-Pz-YWG"/>
+                            <constraint firstItem="9Fv-Xf-v0x" firstAttribute="top" secondItem="dRS-ay-K6Q" secondAttribute="bottom" constant="17" id="66X-C5-Vpd"/>
                             <constraint firstItem="9Fv-Xf-v0x" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-45" id="9JL-sz-i8C"/>
-                            <constraint firstItem="9Fv-Xf-v0x" firstAttribute="top" secondItem="7gz-PL-jFA" secondAttribute="bottom" constant="102" id="Jh1-5n-Evt"/>
+                            <constraint firstItem="9Fv-Xf-v0x" firstAttribute="top" secondItem="7gz-PL-jFA" secondAttribute="bottom" constant="173" id="Jh1-5n-Evt"/>
                             <constraint firstItem="VDy-ht-Tyf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="45" id="S8C-N0-tGz"/>
                             <constraint firstItem="VDy-ht-Tyf" firstAttribute="top" secondItem="9Fv-Xf-v0x" secondAttribute="bottom" constant="19" id="Wb8-ay-SI1"/>
                             <constraint firstItem="7gz-PL-jFA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Xqc-Ph-BX7"/>
@@ -126,8 +134,15 @@
                             <constraint firstItem="7gz-PL-jFA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="nbp-IJ-xZN"/>
                             <constraint firstItem="9Fv-Xf-v0x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="45" id="qkS-MT-dIc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="7gz-PL-jFA" secondAttribute="trailing" constant="-20" id="td8-7Y-Vc9"/>
+                            <constraint firstItem="dRS-ay-K6Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wqp-7N-Avo"/>
                             <constraint firstItem="2IH-16-NM9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="45" id="xwT-LW-kMi"/>
+                            <constraint firstItem="dRS-ay-K6Q" firstAttribute="top" secondItem="7gz-PL-jFA" secondAttribute="bottom" constant="25" id="zAd-cO-J1t"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Jh1-5n-Evt"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -135,4 +150,7 @@
             <point key="canvasLocation" x="274" y="389"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IBLocalizable" width="512" height="512"/>
+    </resources>
 </document>
