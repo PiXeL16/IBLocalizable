@@ -11,6 +11,6 @@ script:
   - set -o pipefail
   - xcodebuild -version
   - xcodebuild -showsdks
-  - xcodebuild -workspace IBLocalizable.xcworkspace -scheme "IBLocalizable" -destination "OS=9.3,name=iPhone 6s Plus" test GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES | xcpretty -c
+  - xcodebuild -workspace IBLocalizable.xcworkspace -scheme "IBLocalizable" -destination "iOS=9.2,name=iPhone 6s Plus" test GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES | xcpretty -c
 after_success:
   - bash <(curl -s https://codecov.io/bash)
