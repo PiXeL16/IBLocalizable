@@ -1,6 +1,6 @@
 ![IBLocalizable](/Web/banner.png)
 
-Localize your views easily from Interface Builder with IBLocalizable.
+Localize your views easily in Interface Builder with IBLocalizable.
 
 [![Build Status](https://travis-ci.org/PiXeL16/IBLocalizable.svg?branch=master)](https://travis-ci.org/PiXeL16/IBLocalizable)
 [![codecov.io](https://codecov.io/github/PiXeL16/IBLocalizable/coverage.svg?branch=master)](https://codecov.io/github/PiXeL16/IBLocalizable?branch=master)
