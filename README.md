@@ -61,6 +61,7 @@ Thats it! :smile:.
 ## Usage
 After the package its installed simply open your `Storyboard` or `Interface Builder`. All of the supported views will show a `new` `Localizable String` property.
 
+
 ![interfaceBuilder](/Web/interfaceBuilder.png)
 
 Since everything is extension based, `IBLocalizable` should play nice with other libraries or `pods` that you are using.
