@@ -9,13 +9,13 @@ Localize your views easily in Interface Builder with IBLocalizable.
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/PiXeL16/IBLocalizable/master/LICENSE)
 
-With `IBlocalizable`, you can localize your views in `Interface Builder` easily.
-Simply set the new `Localizable String` property that shows up in Interface builder to the value that you added in your Localizable `.string file`. Most views can be localized this way `without a single line of code`!.
+With `IBLocalizable`, you can localize your views in `Interface Builder` easily.
+Simply set the new `Localizable String` property that shows up in Interface builder to the value that you added in your Localizable `.string file`. Most views can be localized this way `without a single line of code`.
 
 ## Installation
 ### [Swift package manager](https://swift.org/package-manager)
 
-Add `.Package(url: "https://github.com/PiXeL16/IBLocalizable.git", majorVersion: 1)` to your `Package.swift`
+Add `.Package(url: "https://github.com/PiXeL16/IBLocalizable.git",majorVersion: 1)` to your `Package.swift`
 
 ### [CocoaPods](https://cocoapods.org)
 
@@ -23,7 +23,7 @@ Add `pod 'IBLocalizable'` to your Podfile.
 
 ### [Carthage](https://github.com/Carthage/Carthage)
 
-Add `github "PiXeL16/IBLocalzable"` to your Cartfile.
+Add `github "PiXeL16/IBLocalizable"` to your Cartfile.
 
 ## Supported Views
 
@@ -39,7 +39,7 @@ Custom views can be supported easily. Just create an `extension` and implement t
 
 If your custom view extends from `UIView` you only need to extend your custom view and implement the `localizableProperty`.
 
-For example: let´s say that I have a custom view that contains several `UILabel` and a `UIImageView`. I will like to localize one of the `UILabel`.
+For example: lets say that I have a custom view that contains several `UILabel` and a `UIImageView`. I will like to localize one of the `UILabel`.
 
 ```swift
 import UIKit
@@ -73,7 +73,6 @@ In the `Xcode Project` you can find a sample project of a simple `Login` view co
 ### Spanish
 ![spanish](/Web/spanish.png)
 
-
 ## To do
 * Support more views (SearchBar, TableView Cells, etc)
 * Improve sample project.
@@ -82,4 +81,4 @@ In the `Xcode Project` you can find a sample project of a simple `Login` view co
 Chris Jimenez - http://code.chrisjimenez.net, [@chrisjimeneznat](http://twitter.com/chrisjimeneznat)
 
 ## License
-`PasswordTextField` is released under the MIT license. See [LICENSE](https://github.com/pixel16/PasswordTextField/blob/master/LICENSE) for details.
+`IBLocalizable` is released under the MIT license. See [LICENSE](https://github.com/pixel16/IBLocalizable/blob/master/LICENSE) for details.
