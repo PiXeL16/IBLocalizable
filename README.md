@@ -66,6 +66,10 @@ After the package its installed simply open your `Storyboard` or `Interface Buil
 
 Since everything is extension based, `IBLocalizable` should play nice with other libraries or `pods` that you are using.
 
+### Build Performance
+
+Since `IBLocalizable` only uses `IBInspectable` and never `IBDesignable`, your incremental builds will continue to work. (http://www.openradar.me/20690594)
+
 ## Sample Project
 In the `Xcode Project` you can find a sample project of a simple `Login` view controller. All of this is automatically localizable in English and Spanish by just using `IBLocalizable`.
 ### English
