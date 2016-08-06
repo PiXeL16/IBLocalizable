@@ -33,6 +33,7 @@ Add `github "PiXeL16/IBLocalizable"` to your Cartfile.
 * UIBarItem (BarButton, TabBarItem, etc)
 * UITextField
 * UITextView
+* UISearchBar
 
 ### Supporting custom views
 Custom views can be supported easily. Just create an `extension` and implement the `Localizable` Protocol.
@@ -79,7 +80,7 @@ In the `Xcode Project` you can find a sample project of a simple `Login` view co
 ![spanish](/Web/spanish.png)
 
 ## To do
-* Support more views (SearchBar, TableView Cells, etc)
+* Support more views (TableView Cells, etc)
 * Improve sample project.
 
 ## Author
