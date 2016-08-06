@@ -25,6 +25,11 @@ Add `pod 'IBLocalizable'` to your Podfile.
 
 Add `github "PiXeL16/IBLocalizable"` to your Cartfile.
 
+### Manual Installation
+* Please note, installation via CocoaPods or Carthage is much simpler and recommended.
+
+Download and drop `/IBLocalizable` in your project.
+
 ## Supported Views
 
 * UILabel
