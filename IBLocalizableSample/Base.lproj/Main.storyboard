@@ -144,8 +144,19 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="cVB-0n-40x" id="mte-Pp-fTJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="cVB-0n-40x">
+                    <connections>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="cws-gp-lOt"/>
+                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="l7R-v8-kUw"/>
+                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="ktG-VJ-C14"/>
+                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="byR-gQ-KHm"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="274" y="389"/>
         </scene>
