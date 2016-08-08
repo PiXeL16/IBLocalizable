@@ -7,7 +7,7 @@ Localize your views easily in Interface Builder with IBLocalizable.
 [![Language](https://img.shields.io/badge/language-Swift%202.2-orange.svg)](https://swift.org)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/IBLocalizable.svg)](https://img.shields.io/cocoapods/v/IBLocalizable.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/matteocrippa/awesome-swift)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/matteocrippa/awesome-swift)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/PiXeL16/IBLocalizable/master/LICENSE)
 
 With `IBLocalizable`, you can localize your views in `Interface Builder` easily.
