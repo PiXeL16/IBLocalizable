@@ -23,7 +23,7 @@ public protocol Localizable: class {
     /**
      Applies the localizable string to the supported view attribute
      */
-    func applyLocalizableString(localizableString: String?) -> Void
+    func applyLocalizableString(_ localizableString: String?) -> Void
     
 }
 
@@ -35,7 +35,7 @@ extension Localizable{
      
      - parameter localizableString: localizable String Value
      */
-    public func applyLocalizableString(localizableString: String?) -> Void {
+    public func applyLocalizableString(_ localizableString: String?) -> Void {
         
         self.localizableProperty = localizableString?.localized
         

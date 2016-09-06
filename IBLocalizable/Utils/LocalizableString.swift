@@ -13,10 +13,10 @@ extension String {
 
     /// Returns the localized string value
     public var localized: String {
-        return localize(withBundle: NSBundle.mainBundle())
+        return localize(withBundle: Bundle.main)
     }
     
-    public func localize(withBundle bundle: NSBundle) -> String
+    public func localize(withBundle bundle: Bundle) -> String
     {
         return NSLocalizedString(self, tableName: nil, bundle: bundle, value: "", comment: "")
     }

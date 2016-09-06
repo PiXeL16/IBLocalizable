@@ -13,18 +13,18 @@ public class BundleUtil:NSObject{
     
     
     /// Gets the bundle property for the pod
-    public static var bundle:NSBundle{
+    public static var bundle:Bundle{
         
         get{
             
             //Get the bundle
-            var bundle = NSBundle(forClass: self.classForCoder())
+            var bundle = Bundle(for: self.classForCoder())
             
             //Trys to load the path to resource(In case we are calling this from the pod)
-            if let bundlePath:String = bundle.pathForResource("IBLocalizableTests", ofType: "bundle")
+            if let bundlePath:String = bundle.path(forResource: "IBLocalizableTests", ofType: "bundle")
             {
                 //If we get the path to resource, set the bundle path
-                bundle =  NSBundle(path: bundlePath)!
+                bundle =  Bundle(path: bundlePath)!
                 
             }
             

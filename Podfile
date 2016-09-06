@@ -1,9 +1,9 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+# platform :ios, '10.0'
 
 
 target 'IBLocalizableTests' do
     use_frameworks!
-    pod 'Quick'
-    pod 'Nimble'
+    pod 'Quick', :git => 'https://github.com/Quick/Quick.git' , :branch => 'swift-3.0'
+    pod 'Nimble', :git => 'https://github.com/Quick/Nimble.git', :branch => 'swift-3.0'
 end
