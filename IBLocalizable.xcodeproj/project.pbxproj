@@ -42,7 +42,7 @@
 		837CE4771D4D33F200EC3FDA /* LocalizableUIBarItemsSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4761D4D33F200EC3FDA /* LocalizableUIBarItemsSpecs.swift */; };
 		83E6590C1D565DF9002023B7 /* LocalizableUISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6590B1D565DF9002023B7 /* LocalizableUISearchBar.swift */; };
 		83E6590D1D565DF9002023B7 /* LocalizableUISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6590B1D565DF9002023B7 /* LocalizableUISearchBar.swift */; };
-		ADFED2D18CD13E0722ED1D23 /* Pods_IBLocalizableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E96AD49A81D2E27DEEA385 /* Pods_IBLocalizableTests.framework */; };
+		993D44C6DA625923A1C9BF71 /* Pods_IBLocalizableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F6A12C4F155F4CBCFFC6C6 /* Pods_IBLocalizableTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16E96AD49A81D2E27DEEA385 /* Pods_IBLocalizableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBLocalizableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D0E4460AE6736D8686BB7A /* Pods-IBLocalizableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests.debug.xcconfig"; sourceTree = "<group>"; };
 		837CE4091D4C50B000EC3FDA /* IBLocalizable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBLocalizable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		837CE40C1D4C50B000EC3FDA /* IBLocalizable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBLocalizable.h; sourceTree = "<group>"; };
 		837CE40E1D4C50B000EC3FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 		837CE4761D4D33F200EC3FDA /* LocalizableUIBarItemsSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableUIBarItemsSpecs.swift; sourceTree = "<group>"; };
 		837CE4BF1D4DA00200EC3FDA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		83E6590B1D565DF9002023B7 /* LocalizableUISearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableUISearchBar.swift; sourceTree = "<group>"; };
-		86CE7994702C8B7A8DAEBAA5 /* Pods-IBLocalizableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C00D6BD9C13E38A9D3BC6D26 /* Pods-IBLocalizableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C215A8B463A724380C11C9A /* Pods-IBLocalizableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5F6A12C4F155F4CBCFFC6C6 /* Pods_IBLocalizableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBLocalizableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				837CE4141D4C50B000EC3FDA /* IBLocalizable.framework in Frameworks */,
-				ADFED2D18CD13E0722ED1D23 /* Pods_IBLocalizableTests.framework in Frameworks */,
+				993D44C6DA625923A1C9BF71 /* Pods_IBLocalizableTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,10 +119,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6F044DD1BC3C9653D0C18E6E /* Frameworks */ = {
+		208EE887B1BB56D30B8C25E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				16E96AD49A81D2E27DEEA385 /* Pods_IBLocalizableTests.framework */,
+				C5F6A12C4F155F4CBCFFC6C6 /* Pods_IBLocalizableTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,8 +134,8 @@
 				837CE4311D4C5B6900EC3FDA /* IBLocalizableSample */,
 				837CE4171D4C50B000EC3FDA /* IBLocalizableTests */,
 				837CE40A1D4C50B000EC3FDA /* Products */,
-				A3076322B6645EFE106CB053 /* Pods */,
-				6F044DD1BC3C9653D0C18E6E /* Frameworks */,
+				FCDF031F554B7D37EDEACF0B /* Pods */,
+				208EE887B1BB56D30B8C25E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -245,11 +245,11 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
-		A3076322B6645EFE106CB053 /* Pods */ = {
+		FCDF031F554B7D37EDEACF0B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				86CE7994702C8B7A8DAEBAA5 /* Pods-IBLocalizableTests.debug.xcconfig */,
-				C00D6BD9C13E38A9D3BC6D26 /* Pods-IBLocalizableTests.release.xcconfig */,
+				70D0E4460AE6736D8686BB7A /* Pods-IBLocalizableTests.debug.xcconfig */,
+				8C215A8B463A724380C11C9A /* Pods-IBLocalizableTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -290,12 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 837CE4201D4C50B000EC3FDA /* Build configuration list for PBXNativeTarget "IBLocalizableTests" */;
 			buildPhases = (
-				CCFD1945148EF39E72A1EFDB /* [CP] Check Pods Manifest.lock */,
+				A3A85D62817A6878205C1EB3 /* [CP] Check Pods Manifest.lock */,
 				837CE40F1D4C50B000EC3FDA /* Sources */,
 				837CE4101D4C50B000EC3FDA /* Frameworks */,
 				837CE4111D4C50B000EC3FDA /* Resources */,
-				C70FB614EAC61E033BFF105B /* [CP] Embed Pods Frameworks */,
-				9753B7E90B56AE10A2A6AD96 /* [CP] Copy Pods Resources */,
+				81DB5056F426C52DA3106756 /* [CP] Embed Pods Frameworks */,
+				2097D5C9294D84C2A3EF82E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -400,7 +400,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9753B7E90B56AE10A2A6AD96 /* [CP] Copy Pods Resources */ = {
+		2097D5C9294D84C2A3EF82E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -415,7 +415,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C70FB614EAC61E033BFF105B /* [CP] Embed Pods Frameworks */ = {
+		81DB5056F426C52DA3106756 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -430,7 +430,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CCFD1945148EF39E72A1EFDB /* [CP] Check Pods Manifest.lock */ = {
+		A3A85D62817A6878205C1EB3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -678,7 +678,7 @@
 		};
 		837CE4211D4C50B000EC3FDA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86CE7994702C8B7A8DAEBAA5 /* Pods-IBLocalizableTests.debug.xcconfig */;
+			baseConfigurationReference = 70D0E4460AE6736D8686BB7A /* Pods-IBLocalizableTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -692,7 +692,7 @@
 		};
 		837CE4221D4C50B000EC3FDA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C00D6BD9C13E38A9D3BC6D26 /* Pods-IBLocalizableTests.release.xcconfig */;
+			baseConfigurationReference = 8C215A8B463A724380C11C9A /* Pods-IBLocalizableTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = "";
