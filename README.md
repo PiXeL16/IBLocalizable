@@ -4,7 +4,7 @@ Localize your views easily in Interface Builder with IBLocalizable.
 
 [![Build Status](https://travis-ci.org/PiXeL16/IBLocalizable.svg?branch=master)](https://travis-ci.org/PiXeL16/IBLocalizable)
 [![codecov.io](https://codecov.io/github/PiXeL16/IBLocalizable/coverage.svg?branch=master)](https://codecov.io/github/PiXeL16/IBLocalizable?branch=master)
-[![Language](https://img.shields.io/badge/language-Swift%202.2-orange.svg)](https://swift.org)
+[![Language](https://img.shields.io/badge/language-Swift%203.0-orange.svg)](https://swift.org)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/IBLocalizable.svg)](https://img.shields.io/cocoapods/v/IBLocalizable.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/matteocrippa/awesome-swift)
