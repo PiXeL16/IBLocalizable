@@ -19,7 +19,6 @@ extension UIView : Localizable {
         set{}
     }
     
-    
     /// Applies the localizable string to the localizable field of the supported view
     @IBInspectable public var localizableString: String{
         
@@ -35,7 +34,13 @@ extension UIView : Localizable {
              */
             applyLocalizableString(newValue)
         }
-        
     }
-
+    
+    //initializer for programatic use
+    convenience init(_ localizableString: String,_ frame: CGRect) {
+        
+        self.init(frame: frame)
+        self.localizableString = localizableString
+    }
+    
 }
