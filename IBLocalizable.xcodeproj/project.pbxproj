@@ -90,6 +90,7 @@
 		83E6590B1D565DF9002023B7 /* LocalizableUISearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableUISearchBar.swift; sourceTree = "<group>"; };
 		8C215A8B463A724380C11C9A /* Pods-IBLocalizableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests.release.xcconfig"; sourceTree = "<group>"; };
 		C5F6A12C4F155F4CBCFFC6C6 /* Pods_IBLocalizableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBLocalizableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE53E3ED1EE1B06E003BC690 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -531,6 +532,7 @@
 			children = (
 				837CE44C1D4C5D3F00EC3FDA /* Base */,
 				837CE4BF1D4DA00200EC3FDA /* es */,
+				CE53E3ED1EE1B06E003BC690 /* en */,
 			);
 			name = Localizable.strings;
 			path = .;
