@@ -40,5 +40,14 @@ extension Localizable{
         self.localizableProperty = localizableString?.localized
         
     }
+    
+    public func getLocalizableProperty() -> String {
+        guard let text = self.localizableProperty else {
+            return ""
+        }
+        return text
+    }
 }
+
+
 

@@ -9,15 +9,25 @@
 import UIKit
 
 // MARK: - TextView extension that adds the localizable property
-extension UITextView{
+extension UITextView: Localizable{
 
-    public override var localizableProperty: String?{
+    public var localizableProperty: String?{
         
         get{
             return self.text
         }
         set{
             self.text = newValue
+        }
+    }
+    
+    /// Applies the localizable string to the localizable field of the supported view
+    @IBInspectable public var localizableString: String{
+        get {
+           return getLocalizableProperty()
+        }
+        set {
+            applyLocalizableString(newValue)
         }
     }
 }

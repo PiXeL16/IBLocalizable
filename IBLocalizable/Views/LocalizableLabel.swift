@@ -8,9 +8,9 @@
 
 import UIKit
 // MARK: - Label extension that adds the localizable property
-extension UILabel {
+extension UILabel: Localizable {
     
-    public override var localizableProperty: String?{
+    public var localizableProperty: String?{
         
         get{
             return self.text
@@ -20,4 +20,13 @@ extension UILabel {
         }
     }
     
+    /// Applies the localizable string to the localizable field of the supported view
+    @IBInspectable public var localizableString: String{
+        get {
+            return getLocalizableProperty()
+        }
+        set {
+            applyLocalizableString(newValue)
+        }
+    }
 }
