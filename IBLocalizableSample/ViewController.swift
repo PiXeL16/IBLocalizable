@@ -13,14 +13,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //programatic example
-        let frame = CGRect.init(x: 100, y: 190, width: 100, height: 20)
-        let l = UILabel.init("hello", frame)
-        l.textAlignment = .center
-        l.center.x = self.view.center.x
-        
-        self.view.addSubview(l)
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {

@@ -8,9 +8,9 @@
 
 import UIKit
 // MARK: - Button extension that adds the localizable property
-extension UISearchBar {
+extension UISearchBar: Localizable {
     
-    public override var localizableProperty: String?{
+    public var localizableProperty: String?{
         
         get{
             return self.placeholder
@@ -21,4 +21,13 @@ extension UISearchBar {
     }
     
     
+    /// Applies the localizable string to the localizable field of the supported view
+    @IBInspectable public var localizableString: String{
+        get {
+            return getLocalizableProperty()
+        }
+        set {
+            applyLocalizableString(newValue)
+        }
+    }
 }

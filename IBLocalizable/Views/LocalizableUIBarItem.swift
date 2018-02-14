@@ -22,16 +22,13 @@ extension UIBarItem: Localizable {
     
     /// Applies the localizable string to the localizable field of the supported view
     @IBInspectable public var localizableString: String{
-        
-        get{
-            guard let text = self.localizableProperty else{
-                return ""
-            }
-            return text
+        get {
+            return getLocalizableProperty()
         }
-        set{
+        set {
             applyLocalizableString(newValue)
         }
-        
     }
+    
+
 }

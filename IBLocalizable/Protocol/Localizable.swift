@@ -19,12 +19,6 @@ public protocol Localizable: class {
     
     /// The localizable string value in the your localizable strings
     var localizableString: String { get set }
-    
-    /**
-     Applies the localizable string to the supported view attribute
-     */
-    func applyLocalizableString(_ localizableString: String?) -> Void
-    
 }
 
 
@@ -40,5 +34,14 @@ extension Localizable{
         self.localizableProperty = localizableString?.localized
         
     }
+    
+    public func getLocalizableProperty() -> String {
+        guard let text = self.localizableProperty else {
+            return ""
+        }
+        return text
+    }
 }
+
+
 
