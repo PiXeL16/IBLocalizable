@@ -12,7 +12,7 @@ import UIKit
 extension UIView : Localizable {
     
     /// Not implemented in base class
-    public var localizableProperty: String?{
+   @objc public var localizableProperty: String?{
         get{
             return ""
         }
