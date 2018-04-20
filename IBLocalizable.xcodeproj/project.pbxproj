@@ -43,6 +43,9 @@
 		83E6590C1D565DF9002023B7 /* LocalizableUISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6590B1D565DF9002023B7 /* LocalizableUISearchBar.swift */; };
 		83E6590D1D565DF9002023B7 /* LocalizableUISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E6590B1D565DF9002023B7 /* LocalizableUISearchBar.swift */; };
 		993D44C6DA625923A1C9BF71 /* Pods_IBLocalizableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F6A12C4F155F4CBCFFC6C6 /* Pods_IBLocalizableTests.framework */; };
+		B9FA79292089F921000216F6 /* LocalizableNavigationItem.swift in Headers */ = {isa = PBXBuildFile; fileRef = 837CE4661D4C78AF00EC3FDA /* LocalizableNavigationItem.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9FA792A2089F923000216F6 /* LocalizableUIBarItem.swift in Headers */ = {isa = PBXBuildFile; fileRef = 837CE4631D4C768F00EC3FDA /* LocalizableUIBarItem.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9FA792B2089F925000216F6 /* LocalizableView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 837CE4571D4C6C7600EC3FDA /* LocalizableView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -263,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				837CE40D1D4C50B000EC3FDA /* IBLocalizable.h in Headers */,
+				B9FA79292089F921000216F6 /* LocalizableNavigationItem.swift in Headers */,
+				B9FA792A2089F923000216F6 /* LocalizableUIBarItem.swift in Headers */,
+				B9FA792B2089F925000216F6 /* LocalizableView.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
