@@ -302,7 +302,6 @@
 				837CE4101D4C50B000EC3FDA /* Frameworks */,
 				837CE4111D4C50B000EC3FDA /* Resources */,
 				81DB5056F426C52DA3106756 /* [CP] Embed Pods Frameworks */,
-				2097D5C9294D84C2A3EF82E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -408,21 +407,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2097D5C9294D84C2A3EF82E9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		81DB5056F426C52DA3106756 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -672,7 +656,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -693,7 +677,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -708,7 +692,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.IBLocalizableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -723,7 +707,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.IBLocalizableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -738,7 +722,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.IBLocalizableSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -753,7 +737,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.IBLocalizableSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
