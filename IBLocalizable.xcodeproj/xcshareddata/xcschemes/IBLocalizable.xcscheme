@@ -20,6 +20,34 @@
                ReferencedContainer = "container:IBLocalizable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "837CE4121D4C50B000EC3FDA"
+               BuildableName = "IBLocalizableTests.xctest"
+               BlueprintName = "IBLocalizableTests"
+               ReferencedContainer = "container:IBLocalizable.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "837CE42F1D4C5B6900EC3FDA"
+               BuildableName = "IBLocalizableSample.app"
+               BlueprintName = "IBLocalizableSample"
+               ReferencedContainer = "container:IBLocalizable.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -40,15 +68,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "837CE4081D4C50B000EC3FDA"
-            BuildableName = "IBLocalizable.framework"
-            BlueprintName = "IBLocalizable"
-            ReferencedContainer = "container:IBLocalizable.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
