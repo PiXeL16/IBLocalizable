@@ -11,7 +11,7 @@ import UIKit
 // MARK: - Textfield extension that adds the localizable property
 extension UITextField {
     
-   @objc public override var localizableProperty: String?{
+   public override var localizableProperty: String?{
         
         get{
             return self.placeholder
