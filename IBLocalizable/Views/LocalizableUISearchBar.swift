@@ -10,7 +10,7 @@ import UIKit
 // MARK: - Button extension that adds the localizable property
 extension UISearchBar {
     
-   @objc public override var localizableProperty: String?{
+   public override var localizableProperty: String?{
         
         get{
             return self.placeholder

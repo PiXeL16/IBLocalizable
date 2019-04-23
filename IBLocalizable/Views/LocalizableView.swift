@@ -11,8 +11,8 @@ import UIKit
 // MARK: - Base Class implementation extension
 extension UIView : Localizable {
     
-    /// Not implemented in base class
-   @objc public var localizableProperty: String?{
+    @objc /// Not @objc imp@objc @objc lemented in base class
+   public var localizableProperty: String?{
         get{
             return ""
         }
