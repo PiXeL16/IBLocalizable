@@ -36,10 +36,10 @@ extension Bundle {
         }
         let languageBundlePath = Bundle.main.path(forResource: customLanguage, ofType: "lproj")
 //        print("path = \(String(describing: languageBundlePath))")
-        guard let customePath = languageBundlePath else {
+        guard let customPath = languageBundlePath else {
             return nil
         }
-        return Bundle(path: customePath)
+        return Bundle(path: customPath)
     }
     
     public class func setCustomLanguage(_ language: String?) {
@@ -49,5 +49,9 @@ extension Bundle {
             UserDefaults.standard.removeObject(forKey: LANG_KEY)
         }
         Holder._custom = nil
+    }
+    
+    public class func getCustomLanguage() -> String? {
+        return UserDefaults.standard.string(forKey: LANG_KEY)
     }
 }
