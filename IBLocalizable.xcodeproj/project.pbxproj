@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		12FE1D52234EE35D04F685C5 /* Pods_IBLocalizableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E57D0DFB64AFC5E2BF5972 /* Pods_IBLocalizableTests.framework */; };
-		3F3E660B364715C25B177B1E /* Pods_IBLocalizable_IBLocalizableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502240D749CBE7AEA0186132 /* Pods_IBLocalizable_IBLocalizableTests.framework */; };
+		775E3F2622E73239001E10D1 /* LocalizableBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E3F2522E73239001E10D1 /* LocalizableBundle.swift */; };
+		775E3F2722E7344C001E10D1 /* LocalizableBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775E3F2522E73239001E10D1 /* LocalizableBundle.swift */; };
 		837CE40D1D4C50B000EC3FDA /* IBLocalizable.h in Headers */ = {isa = PBXBuildFile; fileRef = 837CE40C1D4C50B000EC3FDA /* IBLocalizable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		837CE4141D4C50B000EC3FDA /* IBLocalizable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837CE4091D4C50B000EC3FDA /* IBLocalizable.framework */; };
 		837CE4191D4C50B000EC3FDA /* IBLocalizableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837CE4181D4C50B000EC3FDA /* IBLocalizableTests.swift */; };
@@ -68,7 +69,8 @@
 
 /* Begin PBXFileReference section */
 		18E57D0DFB64AFC5E2BF5972 /* Pods_IBLocalizableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBLocalizableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		502240D749CBE7AEA0186132 /* Pods_IBLocalizable_IBLocalizableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBLocalizable_IBLocalizableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		775E3F2522E73239001E10D1 /* LocalizableBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableBundle.swift; sourceTree = "<group>"; };
+		775E3F2922E73A55001E10D1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		7DB3A6272F8564DCE6E70E95 /* Pods-IBLocalizable-IBLocalizableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizable-IBLocalizableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizable-IBLocalizableTests/Pods-IBLocalizable-IBLocalizableTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E0BE6815070F406CEEEB031 /* Pods-IBLocalizableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalizableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests.debug.xcconfig"; sourceTree = "<group>"; };
 		837CE4091D4C50B000EC3FDA /* IBLocalizable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBLocalizable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,7 +125,6 @@
 			files = (
 				837CE4141D4C50B000EC3FDA /* IBLocalizable.framework in Frameworks */,
 				12FE1D52234EE35D04F685C5 /* Pods_IBLocalizableTests.framework in Frameworks */,
-				3F3E660B364715C25B177B1E /* Pods_IBLocalizable_IBLocalizableTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				837CE42A1D4C59AE00EC3FDA /* LocalizableString.swift */,
+				775E3F2522E73239001E10D1 /* LocalizableBundle.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -272,7 +274,6 @@
 				CD70F902DBFC560BB4220321 /* Pods_IBLocalizable.framework */,
 				A9C08F5D259378924E88B96E /* Pods_IBLocalizableSample.framework */,
 				18E57D0DFB64AFC5E2BF5972 /* Pods_IBLocalizableTests.framework */,
-				502240D749CBE7AEA0186132 /* Pods_IBLocalizable_IBLocalizableTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -382,9 +383,11 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				es,
+				"zh-Hans",
 			);
 			mainGroup = 837CE3FF1D4C50B000EC3FDA;
 			productRefGroup = 837CE40A1D4C50B000EC3FDA /* Products */;
@@ -455,23 +458,19 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IBLocalizableTests/Pods-IBLocalizableTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -482,6 +481,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				837CE4521D4C684600EC3FDA /* LocalizableButton.swift in Sources */,
+				775E3F2622E73239001E10D1 /* LocalizableBundle.swift in Sources */,
 				837CE44F1D4C5F0D00EC3FDA /* LocalizableLabel.swift in Sources */,
 				837CE45B1D4C73FA00EC3FDA /* LocalizableTextField.swift in Sources */,
 				837CE42B1D4C59AE00EC3FDA /* LocalizableString.swift in Sources */,
@@ -511,6 +511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775E3F2722E7344C001E10D1 /* LocalizableBundle.swift in Sources */,
 				837CE45F1D4C74D400EC3FDA /* LocalizableTextView.swift in Sources */,
 				837CE4531D4C684600EC3FDA /* LocalizableButton.swift in Sources */,
 				837CE4501D4C5F0D00EC3FDA /* LocalizableLabel.swift in Sources */,
@@ -566,6 +567,7 @@
 				837CE44C1D4C5D3F00EC3FDA /* Base */,
 				837CE4BF1D4DA00200EC3FDA /* es */,
 				CE53E3ED1EE1B06E003BC690 /* en */,
+				775E3F2922E73A55001E10D1 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			path = .;
