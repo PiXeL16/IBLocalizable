@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  IBLocalizable
+
+  Created by Chris Jimenez on 7/29/16.
+  Copyright © 2016 Chris Jimenez. All rights reserved.
+*/
+
+"email" = "邮箱";
+"password" = "密码";
+"forgot password" = "忘记密码？";
+"sign in" = "登录";
+"log out" = "登出";
+"more" = "更多";
+"main" = "主界面";
+"hello" = "你好";
+"world %@" = "%@ 个世界";
+"switch language" = "更换语言";
