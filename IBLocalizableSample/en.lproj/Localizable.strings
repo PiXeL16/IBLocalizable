@@ -14,4 +14,4 @@
 "more" = "More";
 "main" = "Main";
 "hello" = "Hello";
-
+"world %@" = "en %@ worlds";

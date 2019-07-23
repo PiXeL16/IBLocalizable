@@ -16,6 +16,10 @@ extension String {
         return localize(withBundle: Bundle.main)
     }
     
+    public func localized(_ param: Any, withBundle bundle: Bundle = Bundle.main) -> String{
+        return String(format: NSLocalizedString(self, tableName: nil, bundle: bundle, value: "", comment: ""), "\(param)")
+    }
+    
     public func localize(withBundle bundle: Bundle) -> String
     {
         return NSLocalizedString(self, tableName: nil, bundle: bundle, value: "", comment: "")
